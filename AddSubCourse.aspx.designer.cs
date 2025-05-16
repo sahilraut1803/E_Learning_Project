@@ -11,34 +11,52 @@ namespace E_Learning_Project
 {
 
 
-    public partial class AddCourse
+    public partial class AddSubCourse
     {
 
         /// <summary>
-        /// txtMasterCourse control.
+        /// ddlMasterCourse control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtMasterCourse;
+        protected global::System.Web.UI.WebControls.DropDownList ddlMasterCourse;
 
         /// <summary>
-        /// fuThumbnail control.
+        /// txtSubCourseName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.FileUpload fuThumbnail;
+        protected global::System.Web.UI.WebControls.TextBox txtSubCourseName;
 
         /// <summary>
-        /// btnAddMasterCourse control.
+        /// txtPrice control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAddMasterCourse;
+        protected global::System.Web.UI.WebControls.TextBox txtPrice;
+
+        /// <summary>
+        /// fuSubThumbnail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.FileUpload fuSubThumbnail;
+
+        /// <summary>
+        /// btnAddSubCourse control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnAddSubCourse;
     }
 }

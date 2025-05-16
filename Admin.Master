@@ -468,7 +468,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="CourseList.aspx">
+                                                    <a href="AddTopic.aspx">
                                                         <span class="sub-item">Add Topic</span>
                                                     </a>
                                                 </li>
