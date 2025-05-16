@@ -29,7 +29,7 @@ namespace E_Learning_Project
                 ddlMasterCourse.DataTextField = "CourseName";
                 ddlMasterCourse.DataValueField = "CourseID";
                 ddlMasterCourse.DataBind();
-                ddlMasterCourse.Items.Insert(0, new ListItem("-- Select Master Course --", ""));
+                ddlMasterCourse.Items.Insert(0, new ListItem(" Select Master Course ", ""));
             }
         }
 

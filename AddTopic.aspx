@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" ValidateRequest="false" MasterPageFile="~/Admin.Master" AutoEventWireup="true" CodeBehind="AddTopic.aspx.cs" Inherits="E_Learning_Project.AddTopic" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server" />
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server" >
+</asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="d-flex justify-content-center align-items-center" style="min-height: 80vh;">
         <div class="container w-50 border p-4 rounded shadow bg-light">

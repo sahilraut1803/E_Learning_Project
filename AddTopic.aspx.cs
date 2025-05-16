@@ -28,7 +28,7 @@ namespace E_Learning_Project
                 ddlMasterCourse.DataTextField = "CourseName";
                 ddlMasterCourse.DataValueField = "CourseID";
                 ddlMasterCourse.DataBind();
-                ddlMasterCourse.Items.Insert(0, new ListItem("-- Select Master Course --", ""));
+                ddlMasterCourse.Items.Insert(0, new ListItem(" Select Master Course ", ""));
             }
         }
 
@@ -46,13 +46,13 @@ namespace E_Learning_Project
                     ddlSubCourse.DataTextField = "SubCourseName";
                     ddlSubCourse.DataValueField = "SubCourseID";
                     ddlSubCourse.DataBind();
-                    ddlSubCourse.Items.Insert(0, new ListItem("-- Select Subcourse --", ""));
+                    ddlSubCourse.Items.Insert(0, new ListItem(" Select Subcourse ", ""));
                 }
             }
             else
             {
                 ddlSubCourse.Items.Clear();
-                ddlSubCourse.Items.Insert(0, new ListItem("-- Select Subcourse --", ""));
+                ddlSubCourse.Items.Insert(0, new ListItem(" Select Subcourse ", ""));
             }
         }
 
@@ -96,7 +96,7 @@ namespace E_Learning_Project
         {
             ddlMasterCourse.SelectedIndex = 0;
             ddlSubCourse.Items.Clear();
-            ddlSubCourse.Items.Insert(0, new ListItem("-- Select Subcourse --", ""));
+            ddlSubCourse.Items.Insert(0, new ListItem(" Select Subcourse ", ""));
             txtTopicName.Text = "";
             txtVideoURL.Text = "";
             txtDurationSeconds.Text = "";
